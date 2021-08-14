@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="UAS_10118367_YanuarTisyaDwiPutra">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:name="UAS_10118367_YanuarTisyaDwiPutra.data.ThisApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/bandung"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivitySplash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityMain"
+            android:label="@string/app_name" />
+        <activity
+            android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivitySetting"
+            android:label="@string/activity_title_settings"
+            android:theme="@style/AppThemeSetting" />
+        <activity
+            android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityMaps"
+            android:label="@string/activity_title_maps" />
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityPlaceDetail" />
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityFullScreenImage" />
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivitySearch" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <receiver
+            android:name="UAS_10118367_YanuarTisyaDwiPutra.gcm.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+
+                <!-- Receives the actual messages. -->
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.app.materialrecipe" />
+            </intent-filter>
+        </receiver>
+
+        <!-- This meta-data tag is required to use Google Play Services. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Add Google Map Library -->
+        <uses-library android:name="com.google.android.maps" />
+
+        <!-- Goolge API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/api_key" />
+
+        <!-- service for receive gcm -->
+        <service android:name="UAS_10118367_YanuarTisyaDwiPutra.gcm.GcmIntentService" />
+
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityNewsInfo" />
+        <activity android:name="UAS_10118367_YanuarTisyaDwiPutra.ActivityNewsInfoDetails"></activity>
+    </application>
+
+</manifest>

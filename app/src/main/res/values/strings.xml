@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">UAS_10118367_YanuarTisyaDwiPutra</string>
+
+    <string name="city_name">Bandung</string>
+    <string name="city_address">Jawa Barat, Indonesia</string>
+    <string name="about_text">Aplikasi ini di buat untuk memenuhi Tugas pengganti UAS dalam mata kuliah Aplikasi Komputasi Bergerak yand di doseni oleh Bapak Alif Finandhita,S.Kom,M.T. Di dalam Aplikasi Terdapat Rekomendasi-rekomendasi tempat tempat wisata baik itu wisata alam,wisata kuliner dan juga tempat tempat perbelanjaan yang ada di kota Bandung.</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3239677920600357/3800624160</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3239677920600357/2323890961</string>
+    <string name="api_key">AIzaSyDdFZE56dYSFUkMHUttuLBhXtlMm60OHcM</string>
+
+
+    <string name="navigation_drawer_open">Buka Navigasi Drawer</string>
+    <string name="navigation_drawer_close">Tutup Navigasi Drawer</string>
+    <string name="title_nav_all">Seluruh Tempat</string>
+    <string name="title_nav_fav">Favorites</string>
+    <string name="title_nav_news">Biodata</string>
+
+    <string name="title_nav_tour">Wisata Alam</string>
+    <string name="title_nav_food">Wisata Kuliner</string>
+    <string name="title_nav_Mall">Wisata Perbelanjaan</string>
+
+    <string name="image_of">%1$d of %2$d</string>
+
+    <string name="press_again_exit_app">Klik Sekali lagi untuk Keluar</string>
+
+    <string name="no_item_at">Item Tidak ada</string>
+    <string name="dialog_content_gps">
+        GPS Anda Tidak Aktif. Nyalakan GPS?
+    </string>
+    <string name="activity_title_maps">@string/title_nav_all</string>
+
+    <string name="add_favorite">Tambahkan ke Favorit</string>
+    <string name="remove_favorite">Hapus Dari List Favorites</string>
+    <string name="no_phone_number">Tidak memiliki Nomor untuk di hubungi</string>
+    <string name="no_website">Tidak memiliki Website untuk di kunjungi</string>
+    <string name="fail_dial_number">Tidak Memiliki No untuk di hubungi</string>
+    <string name="fail_open_website">Tidak Memiliki Website</string>
+    <string name="unable_create_map">Sorry! unable to create maps</string>
+    <string name="failed_load_details">Gagal Memuat Rincian Tempat</string>
+    <string name="photos_title">Foto</string>
+    <string name="description_title">Deskripsi</string>
+    <string name="map_title">Map</string>
+    <string name="map_view">Lihat Map</string>
+    <string name="map_navigate">NAVIGATE</string>
+
+    <string name="hint_search">Cari Tempat</string>
+    <string name="please_fill">Please fill search input</string>
+
+    <string name="developer_name">Yanuar Tisya Dwi Putra</string>
+    <string name="copyright">Di buat oleh 10118367_YanuarTisyaDwiPutra</string>
+    <string name="pref_category_notif">Notifications</string>
+    <string name="pref_category_display">Display</string>
+    <string name="pref_category_other">Others</string>
+
+    <string name="pref_title_notif">aktifkan Notifikasi</string>
+    <string name="pref_title_theme">Warna Tema</string>
+    <string name="pref_title_about">Tentang Aplikasi</string>
+    <string name="pref_title_copyright">Copyright</string>
+    <string name="pref_title_dev_name">Developed By</string>
+
+
+    <string name="pref_key_notif">key_notifications</string>
+    <string name="pref_key_theme">key_theme</string>
+    <string name="dialog_confirm_title">Konfisrmasi</string>
+    <string name="dialog_about_title">Tentang Aplikasi</string>
+    <string name="activity_title_settings">Pengaturan</string>
+
+    <string name="title_dialog_theme">Warna Tema</string>
+    <string name="grant_permission_account_storage">Grant account, storage permission to enable</string>
+
+
+
+    <string name="splash_welcome_text">Selamat Datang</string>
+    <string name="splash_desc_text">Created By : 10118367_YanuarTisyaDwiPutra</string>
+
+    <string name="refresh_failed">Sinkronisasi Gagal</string>
+    <string name="load_of">Load %1$d of %2$d</string>
+    <string name="load_success">Data berhasil di jalankan</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="no_internet">"Tidak ada Koneksi Internet"</string>
+    <string name="task_running">Task still running</string>
+    <string name="no_item">No Item</string>
+
+    <string name="OK">OK</string>
+    <string name="YES">YES</string>
+    <string name="NO">NO</string>
+    <string name="SETTING">SETTING</string>
+    <string name="CANCEL">Batalkan</string>
+    <string name="SAVE">Simpan</string>
+    <string name="DISMISS">DISMISS</string>
+    <string name="HIDE">Sembunyikan</string>
+    <string name="RETRY">Coba ulang</string>
+    <string name="DETAILS">Informasi</string>
+    <string name="FAILED">Gagal</string>
+
+
+</resources>
